@@ -1,1 +1,1 @@
-web: uvicorn myapi:app --workers 4                                                                               17s  py  system 02:43:12 PM
+web: uvicorn myapi:app --workers 4 --host=0.0.0.0 --port=${PORT}                                                                        17s  py  system 02:43:12 PM
