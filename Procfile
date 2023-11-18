@@ -1,0 +1,1 @@
+web: python3 -m uvicorn myapi:app --reload                                                                               17s  py  system 02:43:12 PM
