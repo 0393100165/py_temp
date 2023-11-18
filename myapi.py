@@ -9,7 +9,7 @@ origins = [
     "https://localhost.tiangolo.com",
     "http://localhost",
     "http://localhost:8080",
-    "https://vue-emp-cb5416128590.herokuapp.com/"
+    "https://vue-emp-cb5416128590.herokuapp.com"
 ]
 
 app.add_middleware(
