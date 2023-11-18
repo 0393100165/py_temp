@@ -6,7 +6,7 @@ from bson import ObjectId
 
 routes_agent = APIRouter()
 
-@routes_agent.get("/")
+@routes_agent.get("/agents")
 async def get_agents():
     agents = list_serial(colection_name.find())
     return agents
