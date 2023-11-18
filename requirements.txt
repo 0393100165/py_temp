@@ -1,1 +1,1 @@
-python3 -m install uvicorn                                                                                       py  system 03:08:52 PM
+install uvicorn                                                                                       py  system 03:08:52 PM
