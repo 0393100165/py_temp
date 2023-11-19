@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from routes.agent import routes_agent
+from routes.product import routes_product
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -21,3 +22,4 @@ app.add_middleware(
 )
 
 app.include_router(routes_agent)
+app.include_router(routes_product)

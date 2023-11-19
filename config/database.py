@@ -5,5 +5,6 @@ client = MongoClient("mongodb+srv://admin:admin." + urllib.parse.quote("123123@"
 
 db = client.db_example_temp
 
-colection_name = db["agents"]
+agents_collection = db["agents"]
+products_collection = db["product"]
 
